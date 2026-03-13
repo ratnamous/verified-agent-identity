@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'finder'
+        description: 'muvnonymous'
         required: true
-        default: 'finder'
+        default: 'muvnonymous'
       agent_description:
-        description: 'finder'
+        description: 'muvnonymous'
         required: true
-        default: 'finder AI Agent'
+        default: 'muvnonymous AI Agent'
 
 jobs:
   verify:
